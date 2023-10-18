@@ -1,3 +1,4 @@
+# testing wsl and my patience
 def frequencies(items):
     counter= 1
     char = ""
