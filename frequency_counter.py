@@ -1,3 +1,4 @@
+#frequency function 
 def frequencies(items):
     counter = 1 
     char = ""
