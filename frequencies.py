@@ -11,5 +11,5 @@ def frequencies(items):
         else:
             frequencies[char]= 1
 
-    return frequencies.values()
+    return frequencies
 
