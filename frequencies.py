@@ -1,14 +1,19 @@
-#frequency function 
+inputlist = ["a","a","a","b","b","c", "a","b"]
+
+
+
 def frequencies(items):
-    counter = 1 
+    counter= 1
     char = ""
     frequencies = {}
-    for x in range(0, len(items)):
+    for x in range(0,len(items)):
         char = items[x]
-        if char in frequencies: 
-            count = frequencies.get(char)+1
-            frequencies[char] = count
+        if char in frequencies:
+            count= frequencies.get(char)+1
+            frequencies[char]= count
         else:
-            frequencies[char]=1
+            frequencies[char]= 1
 
-        return frequencies
+    return frequencies.values()
+
+print(frequencies(inputlist))
